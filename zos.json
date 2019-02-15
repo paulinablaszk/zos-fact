@@ -1,0 +1,9 @@
+{
+  "zosversion": "2",
+  "name": "zos-fact",
+  "version": "0.1.0",
+  "contracts": {
+    "MyContract": "MyContract",
+    "NewContract": "NewContract"
+  }
+}
