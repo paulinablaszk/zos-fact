@@ -11,7 +11,7 @@ contract MyContract is Initializable {
     }
 
     function createNewContract() public returns(address) {
-        return app.create("zos-fact", "NewContract", "0x69E3a4A7Ff6C1AEff4B096E4A6CF4d094D195a5A");
+        return app.create("zos-fact", "NewContract", 0x69E3a4A7Ff6C1AEff4B096E4A6CF4d094D195a5A, "0x8129fc1c");
     }
     
 }
